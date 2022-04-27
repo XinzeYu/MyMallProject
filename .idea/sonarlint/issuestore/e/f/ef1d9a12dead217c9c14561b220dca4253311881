@@ -1,0 +1,14 @@
+
+`	java:S112_"FDefine and throw a dedicated exception instead of using a generic one.(ßåÀ´úÿÿÿÿ
+`
+java:S11240"EReorder the modifiers to comply with the Java Language Specification.(ú—ùùÿÿÿÿ
+_
+java:S1128"IRemove this unused import 'io.renren.common.validator.group.AliyunGroup'.(ÜÊ¹ò
+_
+java:S1128"IRemove this unused import 'io.renren.common.validator.group.QcloudGroup'.(Ö¿º 
+^
+java:S1128"HRemove this unused import 'io.renren.common.validator.group.QiniuGroup'.(‡ßšÕ
+h
+java:S2259e"RA "NullPointerException" could be thrown; "getOriginalFilename()" can return null.(á“şº
+h
+java:S2259e"RA "NullPointerException" could be thrown; "getOriginalFilename()" can return null.(á“şº

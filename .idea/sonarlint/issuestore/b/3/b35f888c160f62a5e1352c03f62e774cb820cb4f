@@ -1,0 +1,5 @@
+
+\
+java:S11260"AReplace this if-then-else statement by a single return statement.(ÛÆïˇ˝ˇˇˇˇ
+>	java:S108W")Either remove or fill this block of code.(ü‰¡Ç
+R	java:S110 "=This class has 10 parents which is greater than 5 authorized.(èﬁ›Ö
