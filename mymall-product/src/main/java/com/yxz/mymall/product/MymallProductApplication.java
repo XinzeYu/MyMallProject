@@ -1,12 +1,10 @@
 package com.yxz.mymall.product;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-
-/**
- * 导入依赖并配置MyBatisplus
- */
+@MapperScan("com.yxz.mymall.product.dao")
 @SpringBootApplication
 public class MymallProductApplication {
 

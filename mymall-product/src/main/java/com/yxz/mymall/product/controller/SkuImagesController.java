@@ -3,7 +3,6 @@ package com.yxz.mymall.product.controller;
 import java.util.Arrays;
 import java.util.Map;
 
-import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -23,7 +22,7 @@ import com.yxz.common.utils.R;
  *
  * @author yuxinze
  * @email xinzeyu@seu.edu.cn
- * @date 2022-04-27 14:44:22
+ * @date 2022-04-28 13:13:07
  */
 @RestController
 @RequestMapping("product/skuimages")
@@ -69,7 +68,7 @@ public class SkuImagesController {
      * 修改
      */
     @RequestMapping("/update")
-    @RequiresPermissions("product:skuimages:update")
+    //@RequiresPermissions("product:skuimages:update")
     public R update(@RequestBody SkuImagesEntity skuImages){
 		skuImagesService.updateById(skuImages);
 

@@ -1,0 +1,62 @@
+
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Ö†Œşÿÿÿÿ
+`
+java:S1124$"EReorder the modifiers to comply with the Java Language Specification.(™¤€Ëøÿÿÿÿ
+`
+java:S1124&"EReorder the modifiers to comply with the Java Language Specification.(‡‚éûÿÿÿÿÿ
+[
+java:S1124("EReorder the modifiers to comply with the Java Language Specification.(—Â¤Æ
+[
+java:S1124*"EReorder the modifiers to comply with the Java Language Specification.(´Ä‚ 
+S
+java:S1117K">Rename "collection" which hides the field declared at line 27.(ï—ß]
+X
+java:S3457„"AFormat specifiers should be used instead of string concatenation.(°³Š
+i
+java:S3776’"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(öôü÷
+T
+java:S1117“">Rename "collection" which hides the field declared at line 27.(ï—ß]
+]
+java:S3457¦"AFormat specifiers should be used instead of string concatenation.(Œ¦‹µüÿÿÿÿ
+]
+java:S3457´"AFormat specifiers should be used instead of string concatenation.(³ù©Ğøÿÿÿÿ
+]
+java:S3457º"AFormat specifiers should be used instead of string concatenation.(³ù©Ğøÿÿÿÿ
+C
+java:S1905Ø"'Remove this unnecessary cast to "long".(à®îøÿÿÿÿ
+W
+java:S3457Ş"AFormat specifiers should be used instead of string concatenation.(Û“¼q
+S
+java:S1117ä"<Rename "colNames" which hides the field declared at line 31.(ß¥Ò“
+o	java:S116ğ"TRename this field "THRESHOLD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øà½Úÿÿÿÿÿ
+=
+java:S1170ğ"!Make this final field static too.(Øà½Úÿÿÿÿÿ
+>
+java:S1948ï""Make "names" private or transient.(­³¬ûÿÿÿÿ
+o	java:S116“"TRename this field "THRESHOLD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(á—õÖşÿÿÿÿ
+=
+java:S1170“"!Make this final field static too.(á—õÖşÿÿÿÿ
+K
+java:S3398È"/Move this method into "ForkJoinGetProcessName".(áşû­ıÿÿÿÿ
+C
+java:S1068("-Remove this unused "MAX_COUNT" private field.(—Â¤Æ
+]
+java:S1192M"HDefine a constant instead of duplicating this literal "$unwind" 3 times.(¸´Ó
+]
+java:S1192›"FDefine a constant instead of duplicating this literal "$type" 3 times.(È‚ÙË
+k	java:S117L"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü¸÷ğûÿÿÿÿ
+e	java:S117M"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸´Ó
+e	java:S117N"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•ªê
+f	java:S117O"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(î‘¯¢
+k	java:S117R"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù¥Ñüÿÿÿÿ
+s
+java:S2629„"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(°³Š
+x
+java:S2629¦"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(Œ¦‹µüÿÿÿÿ
+x
+java:S2629´"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(³ù©Ğøÿÿÿÿ
+x
+java:S2629º"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(³ù©Ğøÿÿÿÿ
+r
+java:S2629Ş"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(Û“¼q
