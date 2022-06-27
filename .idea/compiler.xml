@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="mymall-common" />
         <module name="mymall-ware" />
+        <module name="mymall-gateway" />
         <module name="mymall-product" />
         <module name="mymall-member" />
         <module name="renren-fast" />
@@ -19,6 +20,7 @@
     <bytecodeTargetLevel>
       <module name="mymall-common" target="1.8" />
       <module name="mymall-coupon" target="1.8" />
+      <module name="mymall-gateway" target="1.8" />
       <module name="mymall-member" target="1.8" />
       <module name="mymall-order" target="1.8" />
       <module name="mymall-product" target="1.8" />
@@ -31,6 +33,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="mymall-coupon" options="-parameters" />
+      <module name="mymall-gateway" options="-parameters" />
       <module name="mymall-member" options="-parameters" />
       <module name="mymall-order" options="-parameters" />
       <module name="mymall-product" options="-parameters" />
