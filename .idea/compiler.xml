@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="mymall-common" />
         <module name="mymall-ware" />
+        <module name="mymall-third-party" />
         <module name="mymall-gateway" />
         <module name="mymall-product" />
         <module name="mymall-member" />
@@ -24,6 +25,7 @@
       <module name="mymall-member" target="1.8" />
       <module name="mymall-order" target="1.8" />
       <module name="mymall-product" target="1.8" />
+      <module name="mymall-third-party" target="1.8" />
       <module name="mymall-ware" target="1.8" />
       <module name="MyMallProject" target="1.8" />
       <module name="renren-fast" target="1.8" />
@@ -37,6 +39,7 @@
       <module name="mymall-member" options="-parameters" />
       <module name="mymall-order" options="-parameters" />
       <module name="mymall-product" options="-parameters" />
+      <module name="mymall-third-party" options="-parameters" />
       <module name="mymall-ware" options="-parameters" />
       <module name="renren-fast" options="-parameters" />
       <module name="renren-generator" options="-parameters" />
