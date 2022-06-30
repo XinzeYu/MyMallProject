@@ -3,6 +3,7 @@ package com.yxz.mymall.product;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.yxz.mymall.product.entity.BrandEntity;
 import com.yxz.mymall.product.service.BrandService;
+import com.yxz.mymall.product.service.CategoryService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -17,7 +18,17 @@ class MymallProductApplicationTests {
 
     @Autowired
     BrandService brandService;
-
+    
+    @Autowired
+    CategoryService categoryService;
+    
+    @Test
+    void test(){
+        Long[] catelogPath = categoryService.findCatelogPath(225L);
+        for (Long aLong : catelogPath) {
+            System.out.println(aLong);
+        }
+    }
 
     @Test
     void contextLoads() {

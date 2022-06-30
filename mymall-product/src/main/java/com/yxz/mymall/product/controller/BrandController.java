@@ -3,7 +3,11 @@ package com.yxz.mymall.product.controller;
 import java.util.Arrays;
 import java.util.Map;
 
+import com.yxz.common.valid.AddGroup;
+import com.yxz.common.valid.UpdateGroup;
+import com.yxz.common.valid.UpdateStatusGroup;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,7 +18,6 @@ import com.yxz.mymall.product.entity.BrandEntity;
 import com.yxz.mymall.product.service.BrandService;
 import com.yxz.common.utils.PageUtils;
 import com.yxz.common.utils.R;
-
 
 
 /**
@@ -58,7 +61,17 @@ public class BrandController {
      */
     @RequestMapping("/save")
     //@RequiresPermissions("product:brand:save")
-    public R save(@RequestBody BrandEntity brand){
+    public R save(@Validated({AddGroup.class}) @RequestBody BrandEntity brand){
+        /*if(result.hasErrors()) {
+            //获取校验的错误结果存储为map
+            Map<String, String> map = new HashMap<>();
+            result.getFieldErrors().forEach((item)->{
+                String message = item.getDefaultMessage();
+                String filed = item.getField();
+                map.put(filed, message);
+            });
+            return R.error(400,"提交的数据不合法").put("data", map);
+        }*/
 		brandService.save(brand);
 
         return R.ok();
@@ -69,8 +82,19 @@ public class BrandController {
      */
     @RequestMapping("/update")
     //@RequiresPermissions("product:brand:update")
-    public R update(@RequestBody BrandEntity brand){
-		brandService.updateById(brand);
+    public R update(@Validated(UpdateGroup.class) @RequestBody BrandEntity brand){
+		brandService.updateDetail(brand);
+
+        return R.ok();
+    }
+
+    /**
+     * 修改状态
+     */
+    @RequestMapping("/update/status")
+    //@RequiresPermissions("product:brand:update")
+    public R updateStatus(@Validated(UpdateStatusGroup.class) @RequestBody BrandEntity brand){
+        brandService.updateById(brand);
 
         return R.ok();
     }
