@@ -1,0 +1,29 @@
+
+t
+java:S2293!"YReplace the type specification in this constructor call with the diamond operator ("<>").(Í»Š–ÿÿÿÿÿ
+R
+java:S1611/"<Remove the parentheses around the "categoryEntity" parameter(™¬…”
+i
+java:S1602/"SRemove useless curly braces around statement and then remove useless return keyword(™¬…”
+H
+java:S16111"2Remove the parentheses around the "menu" parameter(¯¸£¨
+h
+java:S16024"SRemove useless curly braces around statement and then remove useless return keyword(óÌ–A
+W
+java:S1611F"<Remove the parentheses around the "categoryEntity" parameter(úüÍ÷üÿÿÿÿ
+n
+java:S1602F"SRemove useless curly braces around statement and then remove useless return keyword(úüÍ÷üÿÿÿÿ
+h
+java:S1602L"SRemove useless curly braces around statement and then remove useless return keyword(óÌ–A
+D
+java:S1905_")Remove this unnecessary cast to "Long[]".(é¾ãÕÿÿÿÿÿ
+M
+java:S1135k"2Complete the task associated to this TODO comment.(‡Ü€øÿÿÿÿ
+1
+java:S3626u"Remove this redundant jump.(ûÁÝ…
+y
+java:S1488/"cImmediately return this expression instead of assigning it to the temporary variable "level1Menus".(™¬…”
+{
+java:S1488F"`Immediately return this expression instead of assigning it to the temporary variable "children".(úüÍ÷üÿÿÿÿ
+O
+java:S4973G"9Use the "equals" method if value comparison was intended.(³Ý‘”

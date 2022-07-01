@@ -1,0 +1,15 @@
+
+V	java:S125)"<This block of commented-out lines of code should be removed.( úïüÿÿÿÿ
+V	java:S125."<This block of commented-out lines of code should be removed.(ªõÊùøÿÿÿÿ
+o
+java:S2293/"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ö‹ôœ
+T
+java:S47199"9Replace charset name argument with StandardCharsets.UTF_8(‹á±Õÿÿÿÿÿ
+V	java:S125C"<This block of commented-out lines of code should be removed.(¦Ðˆøúÿÿÿÿ
+S	java:S106G"9Replace this use of System.out or System.err by a logger.(©þêÜúÿÿÿÿ
+V	java:S125F"<This block of commented-out lines of code should be removed.(èˆ£Ôþÿÿÿÿ
+W
+java:S1128"5Remove this unused import 'com.aliyun.oss.OSSClient'.(œ¡ˆûûÿÿÿÿ8¦£¤øš0
+’
+java:S1128"uRemove this unused import 'org.springframework.cloud.client.discovery.simple.SimpleDiscoveryClientAutoConfiguration'.(úÑÄÿ8¦£¤øš0
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Êž äúÿÿÿÿ
