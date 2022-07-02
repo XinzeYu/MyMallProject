@@ -1,0 +1,11 @@
+
+o
+java:S2293/"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ñ¢”Ï
+T
+java:S1611Y"2Remove the parentheses around the "item" parameter(Ùáõ¨ıÿÿÿÿ8ö‡ºÃ›0
+m
+java:S1128	"KRemove this unused import 'com.yxz.mymall.product.service.CategoryService'.(èÇà£üÿÿÿÿ8Ë÷‚Î›0
+…
+java:S1488["cImmediately return this expression instead of assigning it to the temporary variable "brandEntity".(¸†Ìˆûÿÿÿÿ8ù‡ºÃ›0
+
+java:S1488Y"_Immediately return this expression instead of assigning it to the temporary variable "collect".(Ùáõ¨ıÿÿÿÿ8¢¬ºÃ›0

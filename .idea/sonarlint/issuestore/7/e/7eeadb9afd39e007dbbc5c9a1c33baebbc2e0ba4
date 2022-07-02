@@ -1,0 +1,43 @@
+
+o
+java:S2293;"YReplace the type specification in this constructor call with the diamond operator ("<>").(­•°Ó
+P
+java:S1611\"5Remove the parentheses around the "wrapper" parameter(âÛèÇıÿÿÿÿ
+G
+java:S1602\",Remove useless curly braces around statement(âÛèÇıÿÿÿÿ
+M
+java:S1611g"8Remove the parentheses around the "attrEntity" parameter(Àš–c
+N
+java:S1611Ã"2Remove the parentheses around the "attr" parameter(³˜­óşÿÿÿÿ
+o
+java:S1602Ã"SRemove useless curly braces around statement and then remove useless return keyword(³˜­óşÿÿÿÿ
+H
+java:S1612Ã",Replace this lambda with a method reference.(³˜­óşÿÿÿÿ
+B
+java:S1168È"+Return an empty collection instead of null.(¥¹ï
+N
+java:S1611Ñ"2Remove the parentheses around the "item" parameter(…òÌËıÿÿÿÿ
+p
+java:S1602è"SRemove useless curly braces around statement and then remove useless return keyword(¾Õ²48âûïÁ›0
+I
+java:S1612è",Replace this lambda with a method reference.(¾Õ²48ãûïÁ›0
+v
+java:S1602î"SRemove useless curly braces around statement and then remove useless return keyword(Ø¨á¯ÿÿÿÿÿ8ÆÿñÁ›0
+O
+java:S1612î",Replace this lambda with a method reference.(Ø¨á¯ÿÿÿÿÿ8ÇÿñÁ›0
+M
+java:S1611û"/Remove the parentheses around the "w" parameter(ò²û™8¯’óÁ›0
+J
+java:S1602û",Remove useless curly braces around statement(ò²û™8¯’óÁ›0
+J
+java:S1128$"-Remove this unused import 'org.w3c.dom.Attr'.(öÇ£Ğ8˜õ‚Î›0
+c
+java:S1192]"HDefine a constant instead of duplicating this literal "attr_id" 7 times.(Œª×îüÿÿÿÿ
+h
+java:S1192W"KDefine a constant instead of duplicating this literal "catelog_id" 3 times.(ÛÃƒâ8±’óÁ›0
+Z
+java:S1155Ç">Use isEmpty() to check whether the collection is empty or not.(œÛ¯ªøÿÿÿÿ
+\
+java:S1155ô">Use isEmpty() to check whether the collection is empty or not.(üƒøœ8²’óÁ›0
+„
+java:S1488"aImmediately return this expression instead of assigning it to the temporary variable "pageUtils".(³É¸—ûÿÿÿÿ8²’óÁ›0

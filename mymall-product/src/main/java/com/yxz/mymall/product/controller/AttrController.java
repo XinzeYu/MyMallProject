@@ -1,8 +1,10 @@
 package com.yxz.mymall.product.controller;
 
 import java.util.Arrays;
+import java.util.List;
 import java.util.Map;
 
+import com.yxz.mymall.product.entity.ProductAttrValueEntity;
 import com.yxz.mymall.product.service.ProductAttrValueService;
 import com.yxz.mymall.product.vo.AttrRespVo;
 import com.yxz.mymall.product.vo.AttrVo;
@@ -32,6 +34,14 @@ public class AttrController {
     @Autowired
     ProductAttrValueService productAttrValueService;
 
+    // /product/attr/base/listforspu/{spuId}
+    @GetMapping("/base/listforspu/{spuId}")
+    public R baseAttrlistforspu(@PathVariable("spuId") Long spuId){
+
+        List<ProductAttrValueEntity> entities = productAttrValueService.baseAttrlistforspu(spuId);
+
+        return R.ok().put("data",entities);
+    }
 
     //product/attr/sale/list/0?
     ///product/attr/base/list/{catelogId}
@@ -85,6 +95,16 @@ public class AttrController {
     //@RequiresPermissions("product:attr:update")
     public R update(@RequestBody AttrVo attr){
 		attrService.updateAttr(attr);
+
+        return R.ok();
+    }
+
+    ///product/attr/update/{spuId}
+    @PostMapping("/update/{spuId}")
+    public R updateSpuAttr(@PathVariable("spuId") Long spuId,
+                           @RequestBody List<ProductAttrValueEntity> entities){
+
+        productAttrValueService.updateSpuAttr(spuId,entities);
 
         return R.ok();
     }
