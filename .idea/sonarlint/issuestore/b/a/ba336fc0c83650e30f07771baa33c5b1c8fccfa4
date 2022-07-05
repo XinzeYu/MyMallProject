@@ -1,0 +1,15 @@
+
+{
+java:S2293/"YReplace the type specification in this constructor call with the diamond operator ("<>").(¿Šš§úÿÿÿÿ8£Ãèë›0
+O
+java:S1135N"2Complete the task associated to this TODO comment.(ã„Ñ˜8¦Ãèë›0
+c
+java:S1126o"AReplace this if-then-else statement by a single return statement.(‡•¡¹øÿÿÿÿ8©Ãèë›0
+U
+java:S1611€"2Remove the parentheses around the "item" parameter(ÓÿğÔúÿÿÿÿ8«Ãèë›0
+c
+java:S1128"ARemove this unused import 'javax.validation.constraints.NotNull'.(áç¥ãüÿÿÿÿ8¯§²í›0
+y
+java:S1488l"\Immediately return this expression instead of assigning it to the temporary variable "byId".(‡¢¢ê8°Ãèë›0
+H
+java:S5411®"*Use the primitive boolean expression here.(¿¬‘è8±Ãèë›0
