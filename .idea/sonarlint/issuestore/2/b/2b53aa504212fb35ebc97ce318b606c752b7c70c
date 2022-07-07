@@ -1,0 +1,9 @@
+
+v
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(‡ë›³8æÔÚÆ›0
+i
+java:S1192)"GDefine a constant instead of duplicating this literal "spu_id" 3 times.(“’‚Şøÿÿÿÿ8¾“šèœ0
+‚
+java:S1488)"`Immediately return this expression instead of assigning it to the temporary variable "entities".(“’‚Şøÿÿÿÿ8˜¤í›0
+
+java:S1488="kImmediately return this expression instead of assigning it to the temporary variable "attrValueEntityList".(¼¾‰ûûÿÿÿÿ8¿“šèœ0
