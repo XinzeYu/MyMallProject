@@ -1,0 +1,5 @@
+
+
+java:S1130"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(ß˜­“úÿÿÿÿ8üÈÍº0
+‚
+java:S1488"fImmediately return this expression instead of assigning it to the temporary variable "redissonClient".(ÉëÈ8ï³Ëº0

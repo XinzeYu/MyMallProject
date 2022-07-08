@@ -8,7 +8,9 @@ import org.apache.ibatis.ognl.CollectionElementsAccessor;
 import org.redisson.api.RLock;
 import org.redisson.api.RedissonClient;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.Cacheable;
+import org.springframework.cache.annotation.Caching;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.data.redis.core.script.DefaultRedisScript;
 import org.springframework.data.redis.core.script.RedisScript;
@@ -112,6 +114,11 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity
         return (Long[]) path.toArray(new Long[path.size()]);
     }
 
+    /*@Caching(evict = {
+            @CacheEvict(value = "category", key = "'getLevel1Categorys'"),
+            @CacheEvict(value = "category", key = "'getCatalogJson'")
+    })*/
+    @CacheEvict(value = "category", allEntries = true)
     @Transactional
     @Override
     public void updateCascade(CategoryEntity category) {
@@ -141,8 +148,48 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity
 
     //TODO 产生堆外内存溢出
 
+
+    @Cacheable(value="category", key="#root.methodName", sync = true)
     @Override
     public Map<String, List<Catelog2Vo>> getCatalogJson() {
+        System.out.println("查询了数据库。。。。");
+
+        //否则继续进行下一步
+        List<CategoryEntity> selectList = baseMapper.selectList(null);
+
+
+        //查出所有一级分类
+        List<CategoryEntity> level1Categorys = getParent_cid(selectList, 0L);
+
+        //封装数据
+        Map<String, List<Catelog2Vo>> parent_cid = level1Categorys.stream().collect(Collectors.toMap(k -> k.getCatId().toString(), v -> {
+            //每一个一级分类，查到这个一级分类的二级分类
+            List<CategoryEntity> entityList = getParent_cid(selectList, v.getCatId());
+            //封装上面的结果
+            List<Catelog2Vo> catelog2Vos = null;
+            if (entityList != null) {
+                catelog2Vos = entityList.stream().map(l2 -> {
+                    Catelog2Vo catelog2Vo = new Catelog2Vo(v.getCatId().toString(), null, l2.getCatId().toString(), l2.getName());
+                    //找当前2级分类的3级分类
+                    List<CategoryEntity> level3Catelog = getParent_cid(selectList, l2.getCatId());
+                    if (level3Catelog != null) {
+                        List<Catelog2Vo.Category3Vo> category3Vos = level3Catelog.stream().map(l3 -> {
+                            Catelog2Vo.Category3Vo category3Vo = new Catelog2Vo.Category3Vo(l2.getCatId().toString(), l3.getCatId().toString(), l3.getName());
+                            return category3Vo;
+                        }).collect(Collectors.toList());
+                        catelog2Vo.setCatalog3List(category3Vos);
+                    }
+
+                    return catelog2Vo;
+                }).collect(Collectors.toList());
+            }
+            return catelog2Vos;
+        }));
+
+        return parent_cid;
+    }
+
+    public Map<String, List<Catelog2Vo>> getCatalogJson2() {
 
         /**
          * 1 空结果缓存，解决缓存穿透问题
