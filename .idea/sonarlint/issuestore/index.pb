@@ -1974,3 +1974,13 @@ d
 4.idea/libraries/Maven__redis_clients_jedis_2_9_3.xml,e\6\e673bae60eb0f6ce14079a80b3ef918f813352f5
 Ä
 Pmymall-product/src/main/java/com/yxz/mymall/product/config/MyRedissonConfig.java,6\8\68e8e3fa70b001abd95ea9a0a0decb8e0d1c3090
+}
+Mmymall-product/src/main/java/com/yxz/mymall/product/config/MyCacheConfig.java,0\b\0b8112d5662ab5030198a0521771afc93cccbbcf
+Å
+Qmymall-product/src/main/java/com/yxz/mymall/product/MymallProductApplication.java,e\8\e86a29b786b37f3794591fb35a4b866ed911edb5
+|
+Lmymall-product/src/main/java/com/yxz/mymall/product/web/IndexController.java,f\a\fadf6793a9460b15a1c8fcda92b78e5805939f56
+Å
+Qmymall-search/src/main/java/com/yxz/mymall/search/service/ProductSaveService.java,2\8\2868e309a0917b8982208152aa91673d134bd801
+â
+Ymymall-product/src/main/java/com/yxz/mymall/product/service/impl/CategoryServiceImpl.java,2\8\28b2111b90d114b6ea53040236862f4114226b90

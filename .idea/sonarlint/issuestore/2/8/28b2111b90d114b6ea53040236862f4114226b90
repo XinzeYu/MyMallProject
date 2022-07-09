@@ -1,0 +1,84 @@
+
+t
+java:S22934"YReplace the type specification in this constructor call with the diamond operator ("<>").(Í»Š–ÿÿÿÿÿ
+R
+java:S1611B"<Remove the parentheses around the "categoryEntity" parameter(™¬…”
+i
+java:S1602B"SRemove useless curly braces around statement and then remove useless return keyword(™¬…”
+H
+java:S1611D"2Remove the parentheses around the "menu" parameter(¯¸£¨
+h
+java:S1602G"SRemove useless curly braces around statement and then remove useless return keyword(óÌ–A
+W
+java:S1611Y"<Remove the parentheses around the "categoryEntity" parameter(úüÍ÷üÿÿÿÿ
+n
+java:S1602Y"SRemove useless curly braces around statement and then remove useless return keyword(úüÍ÷üÿÿÿÿ
+h
+java:S1602_"SRemove useless curly braces around statement and then remove useless return keyword(óÌ–A
+D
+java:S1905r")Remove this unnecessary cast to "Long[]".(é¾ãÕÿÿÿÿÿ
+Q	java:S125u"<This block of commented-out lines of code should be removed.(‚—Ê¹
+N
+java:S1135ƒ"2Complete the task associated to this TODO comment.(‡Ü€øÿÿÿÿ
+N
+java:S1135•"2Complete the task associated to this TODO comment.(Ìùùãùÿÿÿÿ
+T	java:S106›"9Replace this use of System.out or System.err by a logger.(¬æ…™ùÿÿÿÿ
+T	java:S106Ú"9Replace this use of System.out or System.err by a logger.(ó®Äûÿÿÿÿ
+T	java:S106ë"9Replace this use of System.out or System.err by a logger.(ó®Äûÿÿÿÿ
+R	java:S125î"<This block of commented-out lines of code should be removed.(ÕÛ­
+W	java:S125û"<This block of commented-out lines of code should be removed.(½ö×Íýÿÿÿÿ
+T	java:S106ƒ"9Replace this use of System.out or System.err by a logger.(àšÊ¨ûÿÿÿÿ
+u
+java:S2142†"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
+T	java:S106”"9Replace this use of System.out or System.err by a logger.(¬æ…™ùÿÿÿÿ
+I
+java:S1135Å"2Complete the task associated to this TODO comment.(î¬–
+i	java:S100õ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–êßŒûÿÿÿÿ
+W	java:S125ö"<This block of commented-out lines of code should be removed.(ÎÅ™µÿÿÿÿÿ
+i
+java:S1602÷"SRemove useless curly braces around statement and then remove useless return keyword(«ÐûH
+2
+java:S3626ƒ"Remove this redundant jump.(ûÁÝ…
+i
+java:S1128"NRemove this unused import 'org.apache.ibatis.ognl.CollectionElementsAccessor'.(™™þñüÿÿÿÿ
+d
+java:S1128"IRemove this unused import 'org.springframework.cache.annotation.Caching'.(å¸”üúÿÿÿÿ
+n
+java:S1128"SRemove this unused import 'org.springframework.data.redis.core.script.RedisScript'.(ÜâëÏùÿÿÿÿ
+c
+java:S1192É"LDefine a constant instead of duplicating this literal "catalogJSON" 5 times.(‡”¦ƒ
+l	java:S117¥"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä‡ïÑýÿÿÿÿ
+g	java:S117ó"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àššÕ
+l	java:S117ž"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä‡ïÑýÿÿÿÿ
+l	java:S117×"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä‡ïÑýÿÿÿÿ
+l	java:S117õ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–êßŒûÿÿÿÿ
+y
+java:S1488B"cImmediately return this expression instead of assigning it to the temporary variable "level1Menus".(™¬…”
+{
+java:S1488Y"`Immediately return this expression instead of assigning it to the temporary variable "children".(úüÍ÷üÿÿÿÿ
+~
+java:S1488‘"bImmediately return this expression instead of assigning it to the temporary variable "entityList".(Ä¡½¾ÿÿÿÿÿ
+z
+java:S1488±"cImmediately return this expression instead of assigning it to the temporary variable "category3Vo".(¥¸‹š
+~
+java:S1488¥"bImmediately return this expression instead of assigning it to the temporary variable "parent_cid".(ä‡ïÑýÿÿÿÿ
+€
+java:S1488Ì"iImmediately return this expression instead of assigning it to the temporary variable "catalogJsonFromDb".(†ñÉÜ
+u
+java:S1488Ñ"^Immediately return this expression instead of assigning it to the temporary variable "result".(›–¶ 
+u
+java:S1488‘"^Immediately return this expression instead of assigning it to the temporary variable "result".(›–¶ 
+z
+java:S1488ª"cImmediately return this expression instead of assigning it to the temporary variable "category3Vo".(¥¸‹š
+u
+java:S1488Ë"^Immediately return this expression instead of assigning it to the temporary variable "result".(›–¶ 
+z
+java:S1488ã"cImmediately return this expression instead of assigning it to the temporary variable "category3Vo".(¥¸‹š
+u
+java:S1488÷"_Immediately return this expression instead of assigning it to the temporary variable "collect".(«ÐûH
+F
+java:S5411ê"*Use the primitive boolean expression here.(Üø­Áøÿÿÿÿ
+O
+java:S4973Z"9Use the "equals" method if value comparison was intended.(³Ý‘”
+U
+java:S4973ø"9Use the "equals" method if value comparison was intended.(ÎÁŽÕúÿÿÿÿ
