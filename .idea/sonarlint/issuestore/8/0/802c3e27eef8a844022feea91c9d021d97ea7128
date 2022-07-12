@@ -1,0 +1,17 @@
+
+t
+java:S2293'"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ä¦©øÿÿÿÿ
+t
+java:S22931"YReplace the type specification in this constructor call with the diamond operator ("<>").(ı¯âŒûÿÿÿÿ
+L
+java:S16113"1Remove the parentheses around the "obj" parameter(¿âØŞúÿÿÿÿ
+G
+java:S16023",Remove useless curly braces around statement(¿âØŞúÿÿÿÿ
+U
+java:S1611J"3Remove the parentheses around the "group" parameter(…‘é¯şÿÿÿÿ8ê­„Ä›0
+j
+java:S1128"MRemove this unused import 'com.baomidou.mybatisplus.core.conditions.Wrapper'.(ÛÑĞ£8£ş£ã0
+
+java:S1488J"_Immediately return this expression instead of assigning it to the temporary variable "collect".(…‘é¯şÿÿÿÿ8…Ó‡Ä›0
+}
+java:S1488Z"[Immediately return this expression instead of assigning it to the temporary variable "vos".(Ì†®ñşÿÿÿÿ8É›‚á0

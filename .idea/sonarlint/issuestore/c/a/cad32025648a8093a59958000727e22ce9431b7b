@@ -1,0 +1,25 @@
+
+Z	java:S106G"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ8½Ä¶Š0
+t
+java:S3776U"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(ìîá¬úÿÿÿÿ8ÿË0
+N
+java:S1612}",Replace this lambda with a method reference.(üŸ’šøÿÿÿÿ8€ÍÙŠ0
+N
+java:S2201Õ"+The return value of "replace" must be used.(ÆÆ’•ûÿÿÿÿ8‚Ë0
+u
+java:S3776ë"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(¬˜³‹ùÿÿÿÿ8£Ä¶Š0
+[	java:S106õ"9Replace this use of System.out or System.err by a logger.(çªÕÈüÿÿÿÿ8õ–Œ0
+k
+java:S1192b"IDefine a constant instead of duplicating this literal "skuTitle" 3 times.(¬Ö±ğşÿÿÿÿ8ôÃÎŠ0
+n	java:S117Õ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß•—‰8ÀÄ¶Š0
+s	java:S117ã"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„øÿ¥üÿÿÿÿ8ÀÄ¶Š0
+s	java:S117ë"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(é×Ëûüÿÿÿÿ8ÁÄ¶Š0
+s	java:S117í"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«ÅÌâúÿÿÿÿ8ÁÄ¶Š0
+\
+java:S1155Á">Use isEmpty() to check whether the collection is empty or not.(ÉšÊü8ÂÄ¶Š0
+[
+java:S1155€">Use isEmpty() to check whether the collection is empty or not.(ëÁ˜U8ÂÄ¶Š0
+\
+java:S1155…">Use isEmpty() to check whether the collection is empty or not.(ÉšÊü8´‚Ë0
+ƒ
+java:S1488÷"eImmediately return this expression instead of assigning it to the temporary variable "searchRequest".(ê³â§8ÃÄ¶Š0

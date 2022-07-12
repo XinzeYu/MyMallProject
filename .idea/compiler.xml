@@ -15,11 +15,13 @@
         <module name="mymall-member" />
         <module name="renren-fast" />
         <module name="mymall-order" />
+        <module name="mymall-auth-server" />
         <module name="mymall-coupon" />
         <module name="renren-generator" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="mymall-auth-server" target="1.8" />
       <module name="mymall-common" target="1.8" />
       <module name="mymall-coupon" target="1.8" />
       <module name="mymall-gateway" target="1.8" />
@@ -36,6 +38,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mymall-auth-server" options="-parameters" />
       <module name="mymall-coupon" options="-parameters" />
       <module name="mymall-gateway" options="-parameters" />
       <module name="mymall-member" options="-parameters" />
