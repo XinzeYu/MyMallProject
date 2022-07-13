@@ -4,6 +4,7 @@ import com.alibaba.fastjson.TypeReference;
 import com.yxz.common.constant.AuthServerConstant;
 import com.yxz.common.exception.BizCodeEnume;
 import com.yxz.common.utils.R;
+import com.yxz.common.vo.MemberResponseVo;
 import com.yxz.mymall.auth.feign.MemberFeignService;
 import com.yxz.mymall.auth.feign.ThirdPartyFeignService;
 import com.yxz.mymall.auth.vo.UserLoginVo;
@@ -140,8 +141,8 @@ public class LoginController {
         R login = memberFeignService.login(vo);
 
         if (login.getCode() == 0) {
-            /*MemberResponseVo data = login.getData("data", new TypeReference<MemberResponseVo>() {});
-            session.setAttribute(LOGIN_USER, data);*/
+            MemberResponseVo data = login.getData("data", new TypeReference<MemberResponseVo>() {});
+            session.setAttribute(LOGIN_USER, data);
             return "redirect:http://mymall.com";
         } else {
             Map<String,String> errors = new HashMap<>();
@@ -149,6 +150,20 @@ public class LoginController {
             attributes.addFlashAttribute("errors",errors);
             return "redirect:http://auth.mymall.com/login.html";
         }
+    }
+
+    @GetMapping(value = "/login.html")
+    public String loginPage(HttpSession session) {
+
+        //从session先取出来用户的信息，判断用户是否已经登录过了
+        Object attribute = session.getAttribute(LOGIN_USER);
+        //如果用户没登录那就跳转到登录页面
+        if (attribute == null) {
+            return "login";
+        } else {
+            return "redirect:http://mymall.com";
+        }
+
     }
 
 

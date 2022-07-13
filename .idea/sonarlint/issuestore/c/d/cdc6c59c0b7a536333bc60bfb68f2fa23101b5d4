@@ -1,0 +1,48 @@
+
+g	java:S1127"FDefine and throw a dedicated exception instead of using a generic one.(èİÎÑşÿÿÿÿ8ôÌ‘‡Ÿ0
+g	java:S112R"FDefine and throw a dedicated exception instead of using a generic one.(èİÎÑşÿÿÿÿ8õÌ‘‡Ÿ0
+g	java:S112x"FDefine and throw a dedicated exception instead of using a generic one.(èİÎÑşÿÿÿÿ8õÌ‘‡Ÿ0
+h	java:S112—"FDefine and throw a dedicated exception instead of using a generic one.(èİÎÑşÿÿÿÿ8õÌ‘‡Ÿ0
+h	java:S112µ"FDefine and throw a dedicated exception instead of using a generic one.(èİÎÑşÿÿÿÿ8öÌ‘‡Ÿ0
+h	java:S112Ó"FDefine and throw a dedicated exception instead of using a generic one.(èİÎÑşÿÿÿÿ8öÌ‘‡Ÿ0
+h	java:S112ğ"FDefine and throw a dedicated exception instead of using a generic one.(èİÎÑşÿÿÿÿ8öÌ‘‡Ÿ0
+h	java:S112»"FDefine and throw a dedicated exception instead of using a generic one.(¼ÿ¾¹ÿÿÿÿÿ8öÌ‘‡Ÿ0
+h	java:S112½"FDefine and throw a dedicated exception instead of using a generic one.(¼ÿ¾¹ÿÿÿÿÿ8öÌ‘‡Ÿ0
+W
+java:S1118'":Add a private constructor to hide the implicit public one.(„–Û8şÌ‘‡Ÿ0
+J
+java:S11724"-Remove this unused method parameter "method".(îçâ8‡Í‘‡Ÿ0
+J
+java:S1172N"-Remove this unused method parameter "method".(ÂóŒ…8”Í‘‡Ÿ0
+{
+java:S2293["YReplace the type specification in this constructor call with the diamond operator ("<>").(Ÿ“æÿùÿÿÿÿ8Í‘‡Ÿ0
+Q
+java:S2864]"4Iterate over the "entrySet" instead of the "keySet".(µÓÎ™8 Í‘‡Ÿ0
+J
+java:S1172t"-Remove this unused method parameter "method".(ÂóŒ…8¤Í‘‡Ÿ0
+K
+java:S1172“"-Remove this unused method parameter "method".(ÂóŒ…8©Í‘‡Ÿ0
+K
+java:S1172±"-Remove this unused method parameter "method".(¹¿Û™8¯Í‘‡Ÿ0
+K
+java:S1172Ï"-Remove this unused method parameter "method".(¹¿Û™8µÍ‘‡Ÿ0
+P
+java:S1172í"-Remove this unused method parameter "method".(Î²®šşÿÿÿÿ8¹Í‘‡Ÿ0
+u
+java:S3776û"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(¢“¼¥üÿÿÿÿ8¼Í‘‡Ÿ0
+c
+java:S2147¼"ECombine this catch with the one at line 314, which has the same body.(¤·¿Ã8ËÍ‘‡Ÿ0
+Ÿ
+java:S1186¬"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‰Ëœ¶8ÍÍ‘‡Ÿ0
+¤
+java:S1186°"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¯éƒàûÿÿÿÿ8ÍÍ‘‡Ÿ0
+D
+java:S1168©"&Return an empty array instead of null.(¥¹ï8ÑÍ‘‡Ÿ0
+^
+java:S4830¬"@Enable server certificate validation on this SSL/TLS connection.(‰Ëœ¶8ÒÍ‘‡Ÿ0
+c
+java:S4830°"@Enable server certificate validation on this SSL/TLS connection.(¯éƒàûÿÿÿÿ8ÒÍ‘‡Ÿ0
+^
+java:S1874¶";Remove this use of "setHostnameVerifier"; it is deprecated.(Å…Û„ıÿÿÿÿ8ÖÍ‘‡Ÿ0
+c
+java:S1192`"FDefine a constant instead of duplicating this literal "utf-8" 4 times.(ÃèÆ•8ÜÍ‘‡Ÿ0
