@@ -1,0 +1,17 @@
+
+?
+java:S1125‘"(Remove the unnecessary boolean literals.(™™¨Ÿ
+M
+java:S1611¶"1Remove the parentheses around the "obj" parameter(ş§«ºúÿÿÿÿ
+I
+java:S1168½"+Return an empty collection instead of null.(¥¹ï8ÂÎÓİŸ0
+T
+java:S1155µ">Use isEmpty() to check whether the collection is empty or not.(‹¸…3
+}
+java:S1488c"bImmediately return this expression instead of assigning it to the temporary variable "cartItemVo".(‘¥ËÌüÿÿÿÿ
+|
+java:S1488¸"`Immediately return this expression instead of assigning it to the temporary variable "cartItem".(–‚Ş¾üÿÿÿÿ
+„
+java:S1488¶"hImmediately return this expression instead of assigning it to the temporary variable "cartItemVoStream".(ş§«ºúÿÿÿÿ
+y
+java:S1488Ò"bImmediately return this expression instead of assigning it to the temporary variable "operations".(Ã¢­

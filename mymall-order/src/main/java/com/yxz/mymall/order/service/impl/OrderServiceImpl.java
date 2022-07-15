@@ -1,5 +1,8 @@
 package com.yxz.mymall.order.service.impl;
 
+import com.yxz.mymall.order.vo.OrderConfirmVo;
+import com.yxz.mymall.order.vo.OrderSubmitVo;
+import com.yxz.mymall.order.vo.SubmitOrderResponseVo;
 import org.springframework.stereotype.Service;
 import java.util.Map;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
@@ -24,6 +27,16 @@ public class OrderServiceImpl extends ServiceImpl<OrderDao, OrderEntity> impleme
         );
 
         return new PageUtils(page);
+    }
+
+    @Override
+    public OrderConfirmVo confirmOrder() {
+
+    }
+
+    @Override
+    public SubmitOrderResponseVo submitOrder(OrderSubmitVo vo) {
+        return null;
     }
 
 }

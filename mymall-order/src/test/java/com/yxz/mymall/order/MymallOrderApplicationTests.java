@@ -1,13 +1,86 @@
 package com.yxz.mymall.order;
 
+import com.yxz.mymall.order.entity.OrderReturnReasonEntity;
 import org.junit.jupiter.api.Test;
+import org.springframework.amqp.core.*;
+import org.springframework.amqp.rabbit.connection.CorrelationData;
+import org.springframework.amqp.rabbit.core.RabbitTemplate;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+
+import java.util.Date;
+import java.util.HashMap;
+import java.util.UUID;
 
 @SpringBootTest
 class MymallOrderApplicationTests {
 
+    @Autowired
+    private AmqpAdmin amqpAdmin;
+
+    @Autowired
+    private RabbitTemplate rabbitTemplate;
+
+
     @Test
-    void contextLoads() {
+    void sendMessageTest() {
+        OrderReturnReasonEntity reasonEntity = new OrderReturnReasonEntity();
+        reasonEntity.setId(1L);
+        reasonEntity.setCreateTime(new Date());
+        reasonEntity.setName("reason");
+        reasonEntity.setStatus(1);
+        reasonEntity.setSort(2);
+        String msg = "Hello World";
+        //1、发送消息,如果发送的消息是个对象，会使用序列化机制，将对象写出去，对象必须实现Serializable接口
+
+        //2、发送的对象类型的消息，可以是一个json
+        rabbitTemplate.convertAndSend("hello-java-exchange","hello.java",
+                reasonEntity,new CorrelationData(UUID.randomUUID().toString()));
     }
+
+    /**
+     * 1、如何创建Exchange、Queue、Binding
+     *      1）、使用AmqpAdmin进行创建
+     * 2、如何收发消息
+     */
+    @Test
+    void createExchange() {
+
+        Exchange directExchange = new DirectExchange("hello-java-exchange",true,false);
+        amqpAdmin.declareExchange(directExchange);
+        System.out.println("Exchange");
+    }
+
+
+
+    @Test
+    void testCreateQueue() {
+        Queue queue = new Queue("hello-java-queue",true,false,false);
+        amqpAdmin.declareQueue(queue);
+    }
+
+
+    @Test
+    void createBinding() {
+
+        Binding binding = new Binding("hello-java-queue",
+                Binding.DestinationType.QUEUE,
+                "hello-java-exchange",
+                "hello.java",
+                null);
+        amqpAdmin.declareBinding(binding);
+
+    }
+
+    @Test
+    void create() {
+        HashMap<String, Object> arguments = new HashMap<>();
+        arguments.put("x-dead-letter-exchange", "order-event-exchange");
+        arguments.put("x-dead-letter-routing-key", "order.release.order");
+        arguments.put("x-message-ttl", 60000); // 消息过期时间 1分钟
+        Queue queue = new Queue("order.delay.queue", true, false, false, arguments);
+        amqpAdmin.declareQueue(queue);
+    }
+
 
 }

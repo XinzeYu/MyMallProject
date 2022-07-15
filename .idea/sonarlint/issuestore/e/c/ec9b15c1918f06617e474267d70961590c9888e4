@@ -1,0 +1,9 @@
+
+£
+java:S1186j"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(õ¤ø¾ùÿÿÿÿ8…ôØŸ0
+{
+java:S1104"YMake toThreadLocal a static final constant or non-public and provide accessors if needed.(ÿÆ©Œıÿÿÿÿ8ªôØŸ0
+U
+java:S1444"3Make this "public static toThreadLocal" field final(ÿÆ©Œıÿÿÿÿ8ªôØŸ0
+L
+java:S5411]"*Use the primitive boolean expression here.(¼«½›øÿÿÿÿ8Ğ×ãİŸ0
