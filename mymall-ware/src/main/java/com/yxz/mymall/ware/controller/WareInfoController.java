@@ -3,12 +3,9 @@ package com.yxz.mymall.ware.controller;
 import java.util.Arrays;
 import java.util.Map;
 
+import com.yxz.mymall.ware.vo.FareVo;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import com.yxz.mymall.ware.entity.WareInfoEntity;
 import com.yxz.mymall.ware.service.WareInfoService;
@@ -29,6 +26,19 @@ import com.yxz.common.utils.R;
 public class WareInfoController {
     @Autowired
     private WareInfoService wareInfoService;
+
+    /**
+     * 根据收货地址来获取运费信息
+     * @return
+     */
+    @GetMapping(value = "/fare")
+    public R getFare(@RequestParam("addrId") Long addrId) {
+
+        FareVo fare = wareInfoService.getFare(addrId);
+
+        return R.ok().setData(fare);
+    }
+
 
     /**
      * 列表

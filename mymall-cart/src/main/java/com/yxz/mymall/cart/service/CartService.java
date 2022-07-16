@@ -19,5 +19,5 @@ public interface CartService {
 
     void deleteIdCartInfo(Integer skuId);
 
-    //List<CartItemVo> getUserCartItems();
+    List<CartItemVo> getUserCartItems();
 }

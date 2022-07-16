@@ -26,14 +26,14 @@ public class CartController {
      * 获取当前用户的购物车商品项
      * @return
      */
-    /*@GetMapping(value = "/currentUserCartItems")
+    @GetMapping(value = "/currentUserCartItems")
     @ResponseBody
     public List<CartItemVo> getCurrentCartItems() {
 
         List<CartItemVo> cartItemVoList = cartService.getUserCartItems();
 
         return cartItemVoList;
-    }*/
+    }
 
     /**
      * 去购物车页面的请求

@@ -4,6 +4,7 @@ import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.TypeReference;
 import com.yxz.common.utils.R;
 import com.yxz.mymall.cart.To.UserInfoTo;
+import com.yxz.mymall.cart.exception.CartExceptionHandler;
 import com.yxz.mymall.cart.feign.ProductFeignService;
 import com.yxz.mymall.cart.interceptor.CartInterceptor;
 import com.yxz.mymall.cart.service.CartService;
@@ -16,6 +17,8 @@ import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
+import java.math.BigDecimal;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
@@ -167,6 +170,38 @@ public class CartServiceImpl implements CartService {
     public void deleteIdCartInfo(Integer skuId) {
         BoundHashOperations<String, Object, Object> cartOps = getCartOps();
         cartOps.delete(skuId.toString());
+    }
+
+    @Override
+    public List<CartItemVo> getUserCartItems() {
+        List<CartItemVo> cartItemVoList = new ArrayList<>();
+        //获取当前用户登录的信息
+        UserInfoTo userInfoTo = CartInterceptor.toThreadLocal.get();
+
+        //如果用户未登录直接返回null
+        if (userInfoTo.getUserId() == null) {
+            return null;
+        } else {
+            //获取购物车项
+            String cartKey = CART_PREFIX + userInfoTo.getUserId();
+            //获取所有的
+            List<CartItemVo> cartItems = getCartItems(cartKey);
+            if (cartItems == null) {
+                throw new CartExceptionHandler();
+            }
+            //筛选出选中的
+            cartItemVoList = cartItems.stream()
+                    .filter(items -> items.getCheck())
+                    .map(item -> {
+                        //更新为最新的价格（查询数据库）
+                        BigDecimal price = productFeignService.getPrice(item.getSkuId());
+                        item.setPrice(price);
+                        return item;
+                    })
+                    .collect(Collectors.toList());
+        }
+
+        return cartItemVoList;
     }
 
 

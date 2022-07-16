@@ -8,6 +8,7 @@ import com.yxz.mymall.order.vo.OrderSubmitVo;
 import com.yxz.mymall.order.vo.SubmitOrderResponseVo;
 
 import java.util.Map;
+import java.util.concurrent.ExecutionException;
 
 /**
  * 订单
@@ -20,7 +21,7 @@ public interface OrderService extends IService<OrderEntity> {
 
     PageUtils queryPage(Map<String, Object> params);
 
-    OrderConfirmVo confirmOrder();
+    OrderConfirmVo confirmOrder() throws ExecutionException, InterruptedException;
 
     SubmitOrderResponseVo submitOrder(OrderSubmitVo vo);
 }

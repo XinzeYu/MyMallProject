@@ -1,13 +1,0 @@
-
-]	java:S125"<This block of commented-out lines of code should be removed.(ñøĞùÿÿÿÿ8ğ‰ÕİŸ0
-X	java:S1255"<This block of commented-out lines of code should be removed.(˜ùİŸ8 ÆÜŸ0
-[
-java:S1128">Remove this unused import 'com.yxz.mymall.cart.To.UserInfoTo'.(²´¼8ÂÖãİŸ0
-n
-java:S1128"LRemove this unused import 'com.yxz.mymall.cart.interceptor.CartInterceptor'.(èóÖüÿÿÿÿÿ8ÃÖãİŸ0
-s
-java:S1128"QRemove this unused import 'org.springframework.web.bind.annotation.ResponseBody'.(•¶¶êøÿÿÿÿ8ÃÖãİŸ0
-M
-java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ÃÖãİŸ0
-Œ
-java:S1192k"jDefine a constant instead of duplicating this literal "redirect:http://cart.mymall.com/cart.html" 3 times.(´ªŒÍøÿÿÿÿ8Á›¡İŸ0
