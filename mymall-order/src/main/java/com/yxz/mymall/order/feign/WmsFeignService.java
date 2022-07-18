@@ -1,6 +1,7 @@
 package com.yxz.mymall.order.feign;
 
 import com.yxz.common.utils.R;
+import com.yxz.mymall.order.vo.WareSkuLockVo;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;

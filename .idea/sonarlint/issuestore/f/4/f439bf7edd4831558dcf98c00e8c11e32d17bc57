@@ -1,0 +1,23 @@
+
+?
+java:S1125”"(Remove the unnecessary boolean literals.(™™¨Ÿ
+e
+java:S1854±"BRemove this useless assignment to local variable "cartItemVoList".(»«åıúÿÿÿÿ8•ğ¬ 0
+I
+java:S1168·"+Return an empty collection instead of null.(¥¹ï8áäì¬ 0
+O
+java:S1612Â",Replace this lambda with a method reference.(«Í¼şÿÿÿÿ8–•ğ¬ 0
+M
+java:S1611Ù"1Remove the parentheses around the "obj" parameter(ş§«ºúÿÿÿÿ
+I
+java:S1168à"+Return an empty collection instead of null.(¥¹ï8Ÿ•ğ¬ 0
+T
+java:S1155Ø">Use isEmpty() to check whether the collection is empty or not.(‹¸…3
+}
+java:S1488f"bImmediately return this expression instead of assigning it to the temporary variable "cartItemVo".(‘¥ËÌüÿÿÿÿ
+|
+java:S1488Û"`Immediately return this expression instead of assigning it to the temporary variable "cartItem".(–‚Ş¾üÿÿÿÿ
+„
+java:S1488Ù"hImmediately return this expression instead of assigning it to the temporary variable "cartItemVoStream".(ş§«ºúÿÿÿÿ
+y
+java:S1488õ"bImmediately return this expression instead of assigning it to the temporary variable "operations".(Ã¢­
