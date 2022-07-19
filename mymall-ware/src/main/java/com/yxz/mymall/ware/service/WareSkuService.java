@@ -1,6 +1,7 @@
 package com.yxz.mymall.ware.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.yxz.common.to.mq.StockLockedTo;
 import com.yxz.common.utils.PageUtils;
 import com.yxz.mymall.ware.entity.WareSkuEntity;
 import com.yxz.mymall.ware.vo.SkuHasStockVo;
@@ -25,5 +26,9 @@ public interface WareSkuService extends IService<WareSkuEntity> {
     List<SkuHasStockVo> getSkuHasStock(List<Long> skuIds);
 
     boolean orderLockStock(WareSkuLockVo vo);
+
+    void unlockStock(StockLockedTo to);
+
+    void unlockStock(OrderTo orderTo);
 }
 

@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.List;
 
-@FeignClient("my-member")
+@FeignClient("mymall-member")
 public interface MemberFeignService {
 
     /**

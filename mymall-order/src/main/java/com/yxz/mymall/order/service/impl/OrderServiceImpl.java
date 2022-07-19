@@ -156,7 +156,9 @@ public class OrderServiceImpl extends ServiceImpl<OrderDao, OrderEntity> impleme
         return confirmVo;
     }
 
+    //本地事务在分布式系统下只能控制住自己
     @Transactional(rollbackFor = Exception.class)
+    //@GlobalTransactional,seate更适合并发量不高的场景，例如后台管理系统的一些操作
     @Override
     public SubmitOrderResponseVo submitOrder(OrderSubmitVo vo) {
         confirmVoThreadLocal.set(vo);
@@ -211,7 +213,8 @@ public class OrderServiceImpl extends ServiceImpl<OrderDao, OrderEntity> impleme
                 lockVo.setLocks(orderItemVos);
 
                 //TODO 调用远程锁定库存的方法
-                //出现的问题：扣减库存成功了，但是由于网络原因超时，出现异常，导致订单事务回滚，库存事务不回滚(解决方案：seata)
+                //远程服务假失败：扣减库存成功了，但是由于网络原因超时，出现异常，导致订单事务回滚，库存事务不回滚(解决方案：seata)
+                //本地方法在远程服务后出现问题：远程服务不能回滚
                 //为了保证高并发，不推荐使用seata，因为是加锁，并行化，提升不了效率,可以发消息给库存服务
                 R r = wmsFeignService.orderLockStock(lockVo);
                 if (r.getCode() == 0) {
@@ -238,6 +241,13 @@ public class OrderServiceImpl extends ServiceImpl<OrderDao, OrderEntity> impleme
                 return responseVo;
             }
         }
+    }
+
+    @Override
+    public OrderEntity getOrderByOrderSn(String orderSn) {
+        OrderEntity orderEntity = this.baseMapper.selectOne(new QueryWrapper<OrderEntity>().eq("order_sn", orderSn));
+
+        return orderEntity;
     }
 
     private void saveOrder(OrderCreateTo orderCreateTo) {
