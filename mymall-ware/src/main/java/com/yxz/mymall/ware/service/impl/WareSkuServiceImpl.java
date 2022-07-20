@@ -2,6 +2,7 @@ package com.yxz.mymall.ware.service.impl;
 
 import com.alibaba.fastjson.TypeReference;
 import com.yxz.common.exception.NoStockException;
+import com.yxz.common.to.OrderTo;
 import com.yxz.common.to.mq.StockDetailTo;
 import com.yxz.common.to.mq.StockLockedTo;
 import com.yxz.common.utils.R;

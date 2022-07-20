@@ -1,7 +1,7 @@
 package com.yxz.mymall.order.config;
 
 import com.zaxxer.hikari.HikariDataSource;
-import io.seata.rm.datasource.DataSourceProxy;
+//import io.seata.rm.datasource.DataSourceProxy;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceProperties;
 import org.springframework.context.annotation.Bean;
@@ -13,7 +13,7 @@ import javax.sql.DataSource;
 @Configuration
 public class MySeataConfig {
 
-    @Autowired
+    /*@Autowired
     DataSourceProperties dataSourceProperties;
 
 
@@ -26,7 +26,7 @@ public class MySeataConfig {
         }
 
         return new DataSourceProxy(dataSource);
-    }
+    }*/
 
 }
 

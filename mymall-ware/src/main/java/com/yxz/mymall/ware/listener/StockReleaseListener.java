@@ -1,6 +1,7 @@
 package com.yxz.mymall.ware.listener;
 
 import com.rabbitmq.client.Channel;
+import com.yxz.common.to.OrderTo;
 import com.yxz.common.to.mq.StockLockedTo;
 import com.yxz.mymall.ware.service.WareSkuService;
 import lombok.extern.slf4j.Slf4j;

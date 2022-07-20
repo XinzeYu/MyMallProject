@@ -1,0 +1,37 @@
+
+{
+java:S2293T"YReplace the type specification in this constructor call with the diamond operator ("<>").(¦ˆÊ¦úÿÿÿÿ8ÃìÌÇ›0
+o
+java:S3776\"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(—î8ÄìÌÇ›0
+v
+java:S1602¥"SRemove useless curly braces around statement and then remove useless return keyword(ÔÀ™€ýÿÿÿÿ8ËìÌÇ›0
+M
+java:S2200º"/Only the sign of the result should be examined.(Šˆëá8å„×Í›0
+M
+java:S1611Ñ"/Remove the parentheses around the "w" parameter(ò²û™8¾†—ê›0
+J
+java:S1602Ñ",Remove useless curly braces around statement(ò²û™8¿†—ê›0
+P
+java:S1135ú"2Complete the task associated to this TODO comment.(–ÔŽ¸8½Êãçœ0
+v
+java:S1602ý"SRemove useless curly braces around statement and then remove useless return keyword(ÛùÚÙúÿÿÿÿ8ÃÊãçœ0
+O
+java:S1612ý",Replace this lambda with a method reference.(ÛùÚÙúÿÿÿÿ8ÆÊãçœ0
+q
+java:S1602…"SRemove useless curly braces around statement and then remove useless return keyword(µ¯ÁÛ8ÉÊãçœ0
+U
+java:S1135"2Complete the task associated to this TODO comment.(¹¤€øÿÿÿÿ8ÎÊãçœ0
+J
+java:S1612—",Replace this lambda with a method reference.(¿×ýå8¼æ½ðœ0
+P
+java:S1135«"2Complete the task associated to this TODO comment.(ö›öì8ÜÊãçœ0
+P
+java:S1135®"2Complete the task associated to this TODO comment.(±–Ý±8ßÊãçœ0
+P
+java:S1135À"2Complete the task associated to this TODO comment.(£©ä÷8æÊãçœ0
+U
+java:S1135Å"2Complete the task associated to this TODO comment.(õ¶ÔØûÿÿÿÿ8çÊãçœ0
+P
+java:S1135É"2Complete the task associated to this TODO comment.(ÃÃÚð8èÊãçœ0
+\
+java:S1155Œ">Use isEmpty() to check whether the collection is empty or not.(«ŽÀ¦8è„×Í›0
