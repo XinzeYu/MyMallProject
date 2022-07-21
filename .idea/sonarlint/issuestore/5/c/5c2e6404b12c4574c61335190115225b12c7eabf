@@ -1,0 +1,23 @@
+
+r	java:S116"QRename this field "app_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›Õü§üÿÿÿÿ8œ†ØÓ¡0
+€	java:S116"_Rename this field "merchant_private_key" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øÌ‘Üÿÿÿÿÿ8œ†ØÓ¡0
+}	java:S116"\Rename this field "alipay_public_key" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï¹Şøÿÿÿÿ8œ†ØÓ¡0
+v	java:S116"URename this field "notify_url" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„»¹€üÿÿÿÿ8†ØÓ¡0
+q	java:S116 "URename this field "return_url" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷–×‰8†ØÓ¡0
+u	java:S116#"TRename this field "sign_type" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æšÄ’ıÿÿÿÿ8†ØÓ¡0
+W	java:S1250"<This block of commented-out lines of code should be removed.(õœ¡8£†ØÓ¡0
+U	java:S106N"9Replace this use of System.out or System.err by a logger.(ÏÎï8¤†ØÓ¡0
+r	java:S117<"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯úò°øÿÿÿÿ8¥†ØÓ¡0
+r	java:S117>"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ú½ˆüÿÿÿÿ8¥†ØÓ¡0
+t
+java:S1104"RMake app_id a static final constant or non-public and provide accessors if needed.(›Õü§üÿÿÿÿ8¦†ØÓ¡0
+‚
+java:S1104"`Make merchant_private_key a static final constant or non-public and provide accessors if needed.(øÌ‘Üÿÿÿÿÿ8¦†ØÓ¡0
+
+java:S1104"]Make alipay_public_key a static final constant or non-public and provide accessors if needed.(Ï¹Şøÿÿÿÿ8¦†ØÓ¡0
+x
+java:S1104"VMake notify_url a static final constant or non-public and provide accessors if needed.(„»¹€üÿÿÿÿ8¦†ØÓ¡0
+s
+java:S1104 "VMake return_url a static final constant or non-public and provide accessors if needed.(÷–×‰8¦†ØÓ¡0
+s
+java:S1104,"VMake gatewayUrl a static final constant or non-public and provide accessors if needed.(ßı€‘8¦†ØÓ¡0

@@ -1,0 +1,7 @@
+
+>
+java:S1604"(Make this anonymous inner class a lambda(ðœÈ¢
+€
+java:S1488"jImmediately return this expression instead of assigning it to the temporary variable "requestInterceptor".(ðœÈ¢
+R
+java:S2589"7Remove this expression which always evaluates to "true"(åž ¥üÿÿÿÿ

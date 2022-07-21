@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/mymall-search/pom.xml" />
         <option value="$PROJECT_DIR$/mymall-auth-server/pom.xml" />
         <option value="$PROJECT_DIR$/mymall-cart/pom.xml" />
+        <option value="$PROJECT_DIR$/mymall-seckill/pom.xml" />
       </list>
     </option>
   </component>

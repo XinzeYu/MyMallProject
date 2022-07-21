@@ -27,6 +27,7 @@ public class ItemController {
         System.out.println("准备查询" + skuId + "详情");
 
         SkuItemVo vos = skuInfoService.item(skuId);
+        System.out.println(vos.getSeckillSkuVo());
 
         model.addAttribute("item",vos);
 

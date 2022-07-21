@@ -1,0 +1,17 @@
+
+{
+java:S1128"YRemove this unused import 'org.springframework.amqp.rabbit.connection.ConnectionFactory'.(ĞÛ¯Ïşÿÿÿÿ8Æ§­¡0
+m
+java:S1128"PRemove this unused import 'org.springframework.amqp.rabbit.core.RabbitTemplate'.(ŒÏ„¼8Æ§­¡0
+h
+java:S1128"KRemove this unused import 'org.springframework.context.annotation.Primary'.(“ğ›ß8Æ§­¡0
+w
+java:S1192%"UDefine a constant instead of duplicating this literal "stock-event-exchange" 4 times.(úÑØ·ıÿÿÿÿ8…—¥­¡0
+‡
+java:S1488%"eImmediately return this expression instead of assigning it to the temporary variable "topicExchange".(úÑØ·ıÿÿÿÿ8†—¥­¡0
+z
+java:S14880"]Immediately return this expression instead of assigning it to the temporary variable "queue".(ÿãè‡8†—¥­¡0
+z
+java:S1488B"]Immediately return this expression instead of assigning it to the temporary variable "queue".(¬ô´Ó8†—¥­¡0
+|
+java:S1488O"_Immediately return this expression instead of assigning it to the temporary variable "binding".(¦Ê¤8†—¥­¡0
