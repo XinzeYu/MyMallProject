@@ -1,0 +1,12 @@
+
+X	java:S125 "<This block of commented-out lines of code should be removed.(ƒœ…‰8í¹‰ù¡0
+a
+java:S1128"?Remove this unused import 'com.zaxxer.hikari.HikariDataSource'.(¦åõ³ûÿÿÿÿ8î¹‰ù¡0
+u
+java:S1128"SRemove this unused import 'org.springframework.beans.factory.annotation.Autowired'.(¡¸Îùÿÿÿÿ8î¹‰ù¡0
+z
+java:S1128"]Remove this unused import 'org.springframework.boot.autoconfigure.jdbc.DataSourceProperties'.(×¶Ó³8î¹‰ù¡0
+]
+java:S1128"ARemove this unused import 'org.springframework.util.StringUtils'.(Ğôÿ8ï¹‰ù¡0
+S
+java:S1128"1Remove this unused import 'javax.sql.DataSource'.(ÉòÂ¿úÿÿÿÿ8ï¹‰ù¡0

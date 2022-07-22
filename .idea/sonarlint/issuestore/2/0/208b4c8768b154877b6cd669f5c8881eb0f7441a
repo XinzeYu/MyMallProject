@@ -1,0 +1,13 @@
+
+n
+java:S2293%"YReplace the type specification in this constructor call with the diamond operator ("<>").(ŸÍ³J
+A
+java:S1168<"+Return an empty collection instead of null.(¥¹ï
+T
+java:S11550">Use isEmpty() to check whether the collection is empty or not.(•ñ¥À
+u
+java:S14881"_Immediately return this expression instead of assigning it to the temporary variable "collect".(è¯Œ¼
+~
+java:S1488I"cImmediately return this expression instead of assigning it to the temporary variable "startFormat".(„øÔüÿÿÿÿ
+w
+java:S1488X"aImmediately return this expression instead of assigning it to the temporary variable "endFormat".(ÄÖ»Ò

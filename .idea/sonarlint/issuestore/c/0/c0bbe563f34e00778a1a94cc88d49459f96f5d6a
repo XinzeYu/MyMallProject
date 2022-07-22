@@ -1,0 +1,10 @@
+
+œ
+java:S11862"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÝòËíøÿÿÿÿ
+œ
+java:S11867"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(õ¤ø¾ùÿÿÿÿ
+]	java:S125)"<This block of commented-out lines of code should be removed.(Þ‰ÈÓúÿÿÿÿ8—·î„¢0
+p
+java:S1104"UMake loginUser a static final constant or non-public and provide accessors if needed.(ÄîžØþÿÿÿÿ
+J
+java:S1444"/Make this "public static loginUser" field final(ÄîžØþÿÿÿÿ

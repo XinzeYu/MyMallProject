@@ -1,0 +1,22 @@
+
+o
+java:S2293="YReplace the type specification in this constructor call with the diamond operator ("<>").(ØÅèà
+P
+java:S1611T"5Remove the parentheses around the "wrapper" parameter(âÛèÇıÿÿÿÿ
+G
+java:S1602T",Remove useless curly braces around statement(âÛèÇıÿÿÿÿ
+E
+java:S2200o"/Only the sign of the result should be examined.(É²‘Û
+>	java:S108r")Either remove or fill this block of code.(”ı¾
+M
+java:S1611•"1Remove the parentheses around the "res" parameter(ê›Û·ıÿÿÿÿ
+H
+java:S1611œ"1Remove the parentheses around the "res" parameter(¨“á…
+M
+java:S1611£"1Remove the parentheses around the "res" parameter(Óó–ñúÿÿÿÿ
+W	java:S125ª"<This block of commented-out lines of code should be removed.(ş…­Ùıÿÿÿÿ
+^	java:S125»"<This block of commented-out lines of code should be removed.(©ù÷Óøÿÿÿÿ8ƒ÷‚¢0
+f
+java:S1128"IRemove this unused import 'com.yxz.mymall.product.config.MyThreadConfig'.(å½•8Ğ”ß‚¢0
+ƒ
+java:S1488ƒ"gImmediately return this expression instead of assigning it to the temporary variable "skuInfoEntities".(³ÊÂ™ıÿÿÿÿ
